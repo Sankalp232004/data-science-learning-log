@@ -1,66 +1,38 @@
-Data Analysis Projects
-This repository contains two beginner-friendly data analysis projects built using Python, pandas, NumPy, and matplotlib.
+Econ & Finance Analytics Portfolio
+=================================
 
-📁 1. Titanic Project
-Goal:
-To explore the Titanic dataset and identify the factors that affected passenger survival.
+This workspace curates hands-on, data-heavy projects that showcase how I approach questions across macroeconomics, venture finance, consumer value, risk modeling, and operational analytics. Everything is organized for hiring managers who need to evaluate economic intuition, technical rigor, and clarity of storytelling at a glance.
 
-Dataset:
-Kaggle’s Titanic: Machine Learning from Disaster
+Value Proposition
+-----------------
+- **Economics-first framing:** Every project starts with the policy, capital allocation, or risk question it answers.
+- **Clean, auditable pipelines:** Reproducible Jupyter notebooks with transparent data cleaning, feature engineering, and modeling steps.
+- **Transferable insight:** The same toolset (Python, pandas, NumPy, seaborn, matplotlib, scikit-learn) is applied to multiple business contexts to highlight versatility.
 
-Key Tasks:
+Featured Projects
+-----------------
+| Domain | Project | What it Demonstrates | Key Outputs |
+| --- | --- | --- | --- |
+| Macro & Public Policy | [Macro Health Resilience](projects/macro_health_resilience) | Connect pandemic trajectories to health-system strain and fiscal response timing. | Time-series diagnostics, scenario-ready notebook, policy commentary. |
+| Venture & Capital Allocation | [Venture Finance India](projects/venture_finance_india) | Evaluate deal flow, ticket sizes, and investor sentiment across Indian startup hubs. | Deal-cleaning pipeline, top-city insights, funding-round visuals. |
+| Consumer Finance & Loyalty | [Consumer Value Analytics](projects/consumer_value_analytics) | Turn messy POS data into actionable lifecycle value and segmentation plays. | Data quality playbook, trend deck-ready visuals, K-Means clusters. |
+| Risk & Survival Modeling | [Risk Survival Modeling](projects/risk_survival_modeling) | Mirror credit-risk workflows using a survival prediction problem. | Feature engineering, logistic regression baseline, interpretability notes. |
+| Operations Benchmarking | [Sports Operations Analytics](projects/sports_operations_analytics) | Translate sports telemetry into lessons on efficiency, scheduling, and talent bets. | Data ingestion script, win-share breakdowns, resource-allocation hooks. |
 
-Data cleaning and handling missing values
+Repository Layout
+-----------------
+- `projects/` – Source of truth for each portfolio-ready engagement. Every project follows `data/`, `notebooks/`, and `README.md` conventions.
+- `docs/PORTFOLIO_MAP.md` – Quick crosswalk that links roles, questions, and assets for interview prep.
 
-Exploratory data analysis (EDA)
+How to Explore
+--------------
+1. Pick a project from the table above and open its README for the business framing.
+2. Run the notebooks in the listed order; no exotic dependencies are required beyond the standard scientific Python stack.
+3. Use the talking points in `docs/PORTFOLIO_MAP.md` when tailoring the narrative to a specific employer.
 
-Feature engineering (e.g., Title extraction from names)
-
-Visualization using matplotlib
-
-Logistic regression model (optional)
-
-Main Insights:
-
-Gender, age, and passenger class were major factors in survival
-
-Families traveling together had different outcomes
-
-Cabin data had hidden patterns when cleaned properly
-
-📁 2. Retail Project
-Goal:
-To analyze sales data from a fictional retail store and find trends, customer behavior, and product performance.
-
-Dataset:
-Superstore Sales Dataset
-
-Key Tasks:
-
-Data cleaning (removing duplicates, fixing data types)
-
-Profit and sales trend analysis
-
-Region-wise and category-wise performance
-
-Time series patterns in order dates
-
-Identifying high and low-performing segments
-
-Main Insights:
-
-West region had the highest sales, but Central had higher profits
-
-Technology and Office Supplies were top-performing categories
-
-Some discount levels hurt profits significantly
-
-🛠️ Tech Stack
-Python
-
-pandas, NumPy
-
-matplotlib, seaborn
-
-Jupyter Notebook
+Future Enhancements
+-------------------
+- Package repeatable helpers (data validation, plotting, feature stores) into lightweight modules.
+- Add Streamlit dashboards for live storytelling during panel interviews.
+- Layer in automated tests or validation checks for critical transformations.
 
